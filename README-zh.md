@@ -254,7 +254,7 @@ LightRAG对大型语言模型（LLM）的能力要求远高于传统RAG，因为
 
 ### 使用LightRAG服务器
 
-LightRAG 服务器旨在提供 Web UI 和 API 支持，同时提供了全面的知识图谱可视化功能，支持各种重力布局、节点查询、子图过滤等。有关LightRAG服务器的更多信息，请参阅[LightRAG服务器](./lightrag/api/README.md)。
+LightRAG 服务器旨在提供 Web UI 和 API 支持，同时提供了全面的知识图谱可视化功能，支持各种重力布局、节点查询、子图过滤等。有关LightRAG服务器的更多信息，请参阅[LightRAG服务器](./docs/LightRAG-API-Server-zh.md)。
 
 ![iShot_2025-03-23_12.40.08](./README.assets/iShot_2025-03-23_12.40.08.png)
 
@@ -282,7 +282,7 @@ python examples/lightrag_openai_demo.py
 
 ## 使用LightRAG Core进行编程
 
-完整的 Core API 参考 —— 包括初始化参数、`QueryParam`、各 LLM/Embedding 接入示例（OpenAI、Ollama、Azure、Gemini、HuggingFace、LlamaIndex）、Rerank 注入、插入操作、实体/关系管理、删除与合并 —— 详见 **[docs/ProgramingWithCore.md](./docs/ProgramingWithCore.md)**（英文）。存储后端配置详见 **[docs/StorageBackends.md](./docs/StorageBackends.md)**（英文）。
+完整的 Core API 参考 —— 包括初始化参数、`QueryParam`、各 LLM/Embedding 接入示例（OpenAI、Ollama、Azure、Gemini、HuggingFace、LlamaIndex）、Rerank 注入、插入操作、实体/关系管理、删除与合并 —— 详见 **[docs/ProgramingWithCore.md](./docs/ProgramingWithCore.md)**（英文）。
 
 > ⚠️ **如果您希望将LightRAG集成到您的项目中，建议您使用LightRAG Server提供的REST API**。LightRAG Core通常用于嵌入式应用，或供希望进行研究与评估的学者使用。
 
